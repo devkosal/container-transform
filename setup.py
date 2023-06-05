@@ -18,7 +18,7 @@ def get_version():
 
 
 install_requires = [
-    'PyYAML>=3.10,<4',
+    'PyYAML>==6.0',
     'Jinja2>=2.7.0',
     'click>=3.3',
 ]
