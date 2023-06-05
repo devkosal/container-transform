@@ -6,7 +6,8 @@ from datetime import datetime
 
 from copy import deepcopy
 from functools import reduce
-from collections import Mapping, defaultdict
+from collections.abc import Mapping
+from collections import defaultdict
 
 from .schema import TransformationTypes, ARG_MAP
 from .transformer import BaseTransformer
