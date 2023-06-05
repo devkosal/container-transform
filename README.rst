@@ -270,13 +270,9 @@ To run the docker image::
 Installation
 ------------
 
-To install the latest release (Python 3 only), type::
+To install the latest code directly from source, type:
 
-    pip install container-transform
-
-To install the latest code directly from source, type::
-
-    pip install git+git://github.com/micahhausler/container-transform.git
+    pip install git+https://github.com/devkosal/container-transform
 
 Documentation
 -------------
